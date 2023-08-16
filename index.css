@@ -236,3 +236,41 @@ body, h1, h2, h3, p, ul, li {
     transform: scale(1.05);
     box-shadow: 0 10px 22px rgba(0, 0, 0, 0.1);
   }
+  .site-header {
+    background-color: rgb(18, 17, 17);
+    color: #fff;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    padding: 20px 0;
+  }
+  
+  .header-logo {
+    margin-right: 20px; /* Add some space between the logo and navigation */
+  }
+  
+  .header-logo img {
+    max-width: 100px;
+  }
+  
+  .header-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .header-nav li {
+    margin-right: 20px;
+  }
+  
+  .header-nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .header-nav a:hover {
+    color: #f39c12;
+  }
+  
